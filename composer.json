@@ -1,0 +1,25 @@
+{
+    "name": "medianasms/php-rest-sdk",
+    "description": "Medianasms REST API client",
+    "type": "library",
+    "homepage": "https://github.com/medianasms/php-rest-sdk",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Asghar Dadashzadeh",
+            "email": "dev@medianasms.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Medianasms\\": "src/Medianasms/"
+        }
+    }
+}
