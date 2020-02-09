@@ -8,7 +8,7 @@ php:
     - 7.4
 
 before_script:
-    - if [[ ${TRAVIS_PHP_VERSION} == 7.0 ]]; then export COMPOSER=composer-7-0.json; fi
+    - if [[ ${TRAVIS_PHP_VERSION} == 7.0 ]]; then export COMPOSER=composer.json; fi
     - composer install
 
 # script: php ./vendor/bin/phpunit --verbose
