@@ -25,10 +25,10 @@ abstract class ResponseCodes
     const ErrUserLimited = "10003";
 
     /**
-     * Line not assigned to you
+     * Number not assigned to you
      * @var string
      */
-    const ErrLineNotAssignedToYou = "10004";
+    const ErrNumberNotAssignedToYou = "10004";
 
 
     /**
@@ -44,16 +44,16 @@ abstract class ResponseCodes
     const ErrCreditNotEnough = "10006";
 
     /**
-     * Line not profit for bulk send
+     * Number not profit for bulk send
      * @var string
      */
-    const ErrLineNotProfitForBulkSend = "10007";
+    const ErrNumberNotProfitForBulkSend = "10007";
 
     /**
-     * Line deactivated temporally
+     * Number deactivated temporally
      * @var string
      */
-    const ErrLineDeactiveTemp = "10008";
+    const ErrNumberDeactiveTemp = "10008";
 
     /**
      * Maximum recipients number exceeded
@@ -62,10 +62,10 @@ abstract class ResponseCodes
     const ErrMaximumRecipientExceeded = "10009";
 
     /**
-     * Operator is offline
+     * Gateway is offline
      * @var string
      */
-    const ErrOperatorOffline = "10010";
+    const ErrGatewayOffline = "10010";
 
     /**
      * Pricing not defined for user
@@ -110,22 +110,10 @@ abstract class ResponseCodes
     const ErrPatternRecipientInvalid = "10017";
 
     /**
-     * Unauthorized send with pattern
-     * @var string
-     */
-    const ErrPatternUnAuthorizedSend = "10018";
-
-    /**
      * Send time is 8-23
      * @var string
      */
     const ErrItsTimeToSleep = "10019";
-
-    /**
-     * Credit card not provided
-     * @var string
-     */
-    const ErrCreditCardNotProvided = "10020";
 
     /**
      * One/all of users documents not approved
@@ -140,16 +128,16 @@ abstract class ResponseCodes
     const ErrInternal = "10022";
 
     /**
-     * Internal error
+     * Number not found
      * @var string
      */
-    const ErrEntityNotFound = "10023";
+    const ErrNumberNotFound = "10023";
 
     /**
-     * Internal error
+     * Gateway disabled
      * @var string
      */
-    const ErrForbidden = "10024";
+    const ErrGatewayDisabled = "10024";
 
     /**
      * Inputs have some problems
