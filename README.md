@@ -141,3 +141,6 @@ try{
     echo $e->getCode();
 }
 ```
+website: https://medianasms.com
+برای دسترسی به سایر مستندات وب سرویس و زبان های برنامه نویسی سامانه پیام کوتاه مدیانا اس ام اس به لینک زیر مراجعه کنید
+https://medianasms.com/lab/
